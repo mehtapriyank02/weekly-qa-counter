@@ -1551,3 +1551,9 @@ function startClock() {
 }
 
 init();
+// Load fail selector buttons without changing index.html
+window.addEventListener("load", function () {
+  var script = document.createElement("script");
+  script.src = "./fail-selector.js?v=200";
+  document.body.appendChild(script);
+});

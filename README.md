@@ -21,3 +21,4 @@ A small GitHub Pages + Supabase dashboard for weekly QA tracking.
 
 Do not paste or expose your Supabase service role key.
 Only use the anon public key.
+deploy reset

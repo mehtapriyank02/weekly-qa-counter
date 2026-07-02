@@ -276,7 +276,7 @@ async function refreshData() {
         .order("created_at"),
       supabaseClient
         .from("auditor_absences")
-        .select("*, qa_members(*)")
+        .select("*")
         .eq("status", "active")
         .order("created_at", { ascending: false }),
       supabaseClient

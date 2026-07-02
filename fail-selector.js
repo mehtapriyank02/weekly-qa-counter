@@ -1,6 +1,6 @@
 // Weekly QA Counter fail selector hotfix.
 // This replaces Fail +/- with exact buttons: 0, 1, 2, 3+.
-// It updates fail_counts through RPC public.set_fail_count_exact.
+// It updates fail_counts through RPC public.set_fail_count_exact...
 
 (function () {
   function injectFailSelectorStyle() {
